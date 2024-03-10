@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge Alura</title>
+    <link rel="shortcut icon" href="assets/Favicon-Challenger.png" type="image/x-icon">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/media-query.css">
+</head>
+
+<body class="body-container">
+    <header class="header">
+        <a href="#">
+            <img class="alura_logo" src="assets/Logo.png" alt="Logo da alura">
+        </a>
+    </header>
+
+    <main class="main-container">
+        <section class="code_text">
+            <textarea class="text_area" id="input__mensagem" placeholder="Escreva a palavra aqui..." cols="30"
+                rows="10"></textarea>
+            <p class="p-alert" class="alert">Apenas letras minúsculas e sem acento!</p>
+            <div class="input__mensagem__grupo">
+            </div>
+            <div class="div-btn">
+                <button id="btn-code" class="btn-code" type="button">Criptografar</button>
+                <button id="btn-decode" class="btn-decode" type="button">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="section-result" id="section-result">
+            <img class="img_busca" src="./assets/img_busca.png" alt="">
+            <img class="img_menssagem" src="./assets/img_menssagem.png" alt="">
+        </section>
+    </main>
+    <footer class="containe-footer"> Challenge: One - Alura Desenvolvido por Tiago Pimenta</footer>
+    <script src="./js/app.js" defer></script>
+    </main>
+</body>
+
+</html>

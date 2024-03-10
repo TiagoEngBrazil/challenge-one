@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #F3F5FC;
+}
+
+.alura_logo {
+  width: 120px;
+  height: 48px;
+  margin-top: 15px;
+  margin-left: 50px;
+  gap: 40px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.code_text {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-left: 150px;
+}
+
+.text_area {
+  width: 500px;
+  height: 150px;
+  margin-left: 50px;
+  top: 168px;
+  border: none;
+  text-transform: lowercase;
+  color: #0A3871;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  resize: none;
+}
+
+.text_area:focus{
+  outline: none;
+}
+
+::placeholder {
+  color: #0A3871;
+}
+
+.alert {
+  width: 46px;
+  border: 3px solid black;
+  border-radius: 90%;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.p-alert {
+width: 330px;
+height: 18px;
+margin-left: 20px;
+margin-bottom: 10px;
+font-family:"Inter", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.btn-code {
+  width: 328px;
+  height: 67px;
+  gap: 24px;
+  color: white;
+  border-radius: 24px;
+  border: 1px solid #0A3871;
+  background-color: #0A3871;
+  font-size: large;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.btn-decode {
+  width: 328px;
+  height: 67px;
+  gap: 24px;
+  color:#0A3871;
+  border-radius: 24px;
+  border: 1px solid #0A3871;
+  background-color: gainsboro;
+  font-size: large ;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.section-result {
+  width: 300px;
+  height: 400px;
+  margin-left: 150px;
+  margin-bottom: 4px;
+  border-radius: 20px;
+  border: 1px solid black;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.img_busca {
+  width: 280px;
+  height: 250px;
+  background-color: white;
+}
+
+.img_menssagem {
+  width: 280px;
+  height: 120px;
+  background-color: white;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.textarea-section-result {
+  width: 295px;
+  height: 280px;
+  border-radius: 20px;
+  border: none;
+  text-transform: lowercase;
+  color: #0A3871;
+  padding-bottom: 30px;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  resize: none;
+}
+
+.btn-copiar {
+  width: 295px;
+  height: 67px;
+  gap: 24px;
+  color:#0A3871;
+  border-radius: 24px;
+  border: 1px solid #0A3871;
+  background-color: gainsboro;
+  font-size: large ;
+  margin-top: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.textarea-section-decode {
+  width: 295px;
+  height: 280px;
+  border-radius: 20px;
+  border: none;
+  text-transform: lowercase;
+  color: #0A3871;
+  padding-bottom: 30px;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  resize: none;
+}
+
+.containe-footer {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 70px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
